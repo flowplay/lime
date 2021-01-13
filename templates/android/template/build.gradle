@@ -2,9 +2,7 @@
 
 buildscript {
 	repositories {
-		jcenter {
-			url "http://jcenter.bintray.com/"
-		}
+		jcenter()
 	}
 	dependencies {
 		classpath 'com.android.tools.build:gradle:::ANDROID_GRADLE_PLUGIN::'
@@ -16,8 +14,9 @@ buildscript {
 
 allprojects {
 	repositories {
-		jcenter {
-			url "http://jcenter.bintray.com/"
+		jcenter()
+		maven {
+			url "https://maven.google.com"
 		}
 	}::if ANDROID_GRADLE_BUILD_DIRECTORY::
 	buildDir = "::ANDROID_GRADLE_BUILD_DIRECTORY::/::APP_FILE::/${project.name}"::end::

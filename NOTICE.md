@@ -4,9 +4,6 @@ Notices
 ### Lime
 Copyright (c) 2013-2018 Joshua Granick and other Lime contributors
 
-This product bundles axTLS 2.1.4, which is available under a
-"BSD" license. For details, see [project/lib/axtls/](project/lib).
-
 This product bundles cairo 1.15.2, which is available under an
 "MPL 1.1" license. For details, see [project/lib/cairo/](project/lib).
 
@@ -16,10 +13,10 @@ This product bundles libcurl 7.56.1, which is available under an
 This product bundles efsw, which is available under an
 "MIT" license. For details, see [project/lib/efsw/](project/lib).
 
-This product bundles freetype 2.7.1, which is available under an
+This product bundles freetype 2.9.1, which is available under an
 "FTL" (BSD-style) license. For details, see [project/lib/freetype/](project/lib).
 
-This product bundles harfbuzz 1.4.6, which is available under an
+This product bundles harfbuzz 1.8.8, which is available under an
 "MIT" license. For details, see [project/lib/harfbuzz/](project/lib).
 
 This product bundles libjpeg 6b, which is available under a
@@ -34,8 +31,8 @@ public domain. For details, see [project/lib/lzma/](project/lzma).
 This product bundles mbedTLS 2.6.0, which is available under an
 "Apache 2.0" license. For details, see [project/lib/mbedtls/](project/lib).
 
-This product bundles OpenAL-Soft 1.17.2, which is available under an
-"LGPLv3" license. For details, see [project/lib/openal/](project/lib).
+This product bundles OpenAL-Soft 1.19.0, which is available under an
+"LGPLv2" license. For details, see [project/lib/openal/](project/lib).
 
 _OpenAL-Soft is only included in dynamically-linked builds, it is excluded
 from Lime static builds in order to preserve Lime's permissive nature._
@@ -93,7 +90,7 @@ _The following are not embedded in Lime applications directly, but are used
 as dependencies for web-based builds. Their licensing does not affect products
 created with Lime._
 
-This product bundles howler.js 2.0.5, which is available under an
+This product bundles howler.js 2.0.15, which is available under an
 "MIT" license. For details, see [dependencies/howler.min.js](dependencies/howler.min.js).
 
 This product bundles FileSaver.js 1.3.3, which is available under an
